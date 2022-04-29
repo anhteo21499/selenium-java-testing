@@ -1,30 +1,18 @@
 package com.company.webdrie.ui;
 
+import com.company.webdrie.ui.base.BaseWebdriverWindow;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.io.File;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class FunctionSelectTest {
+public class FunctionSelectTest extends BaseWebdriverWindow {
 
-    WebDriver driver;
-    String projectPath = System.getProperty("user.dir");
-
-    @BeforeTest
-    public void beforeTest() {
-        // use File.separator to get path with Operating System
-        // window : \ - linux : /
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+    @BeforeClass
+    public void getPage() {
         driver.get("https://demo.guru99.com/test/newtours/register.php");
     }
 
