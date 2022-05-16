@@ -25,6 +25,6 @@ public class BaseWebdriverUbuntu {
     @SneakyThrows
     public void after() {
         Thread.sleep(3000);
-//        driver.close();
+        driver.close();
     }
 }
