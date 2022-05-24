@@ -40,7 +40,7 @@ public class RegisterTest {
         driver.findElement(By.id("txtPassword")).sendKeys("SELENIUM_25");
         driver.findElement(By.id("txtCPassword")).sendKeys("SELENIUM_25");
         driver.findElement(By.id("txtPhone")).sendKeys("0966043338");
-        Thread.sleep(500);
+        Thread.sleep(5000);
         driver.findElement(By.xpath("//div[@class='field_btn']//button[@type='submit']")).click();
     }
 
