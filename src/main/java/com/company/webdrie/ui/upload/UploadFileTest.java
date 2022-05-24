@@ -50,6 +50,7 @@ public class UploadFileTest extends BaseWebdriverUbuntu {
     @SneakyThrows
     @Test
     public void TC2() {
+        // thay file để upload
         String imageFile = urlBase + File.separator + "file" + File.separator + "testfile.doc";
         System.out.println(imageFile);
         driver.get("https://smallseotools.com/plagiarism-checker/");
