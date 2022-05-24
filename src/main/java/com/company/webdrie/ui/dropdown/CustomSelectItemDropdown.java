@@ -21,7 +21,7 @@ public class CustomSelectItemDropdown {
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(childLC));
         List<WebElement> allItemDropDown = driver.findElements(childLC);
         for (WebElement element : allItemDropDown) {
-            if (expectedText.equalsIgnoreCase(element.getText())) {
+            if (expectedText.contains(element.getText())) {
                 element.click();
                 break;
             }

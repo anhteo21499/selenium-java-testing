@@ -6,7 +6,7 @@ import lombok.SneakyThrows;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class RandomPopupTest extends BaseWebdriverUbuntu {
+public class RandomPopupBai5Test extends BaseWebdriverUbuntu {
 
     @SneakyThrows
     @Test
