@@ -1,4 +1,4 @@
-package com.company.webdrie.ui;
+package com.company.webdrie.ui.test;
 
 import com.company.webdrie.ui.base.BaseWebdriverWindow;
 import org.openqa.selenium.By;

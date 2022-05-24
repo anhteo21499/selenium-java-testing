@@ -1,4 +1,4 @@
-package com.company.webdrie.ui;
+package com.company.webdrie.ui.javascript.excutor;
 
 import com.company.webdrie.ui.base.BaseWebdriverWindow;
 import lombok.SneakyThrows;

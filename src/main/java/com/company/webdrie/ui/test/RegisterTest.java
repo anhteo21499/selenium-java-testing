@@ -1,4 +1,4 @@
-package com.company.webdrie.ui;
+package com.company.webdrie.ui.test;
 
 import lombok.SneakyThrows;
 import org.openqa.selenium.By;

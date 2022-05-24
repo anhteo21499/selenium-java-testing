@@ -1,4 +1,4 @@
-package com.company.webdrie.ui;
+package com.company.webdrie.ui.dropdown;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
