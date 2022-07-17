@@ -15,7 +15,7 @@ public class BaseWebdriverUbuntu {
 
     @BeforeClass
     public void beforeClass() {
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", projectPath + "/driver/chromedriver");
         driver = new ChromeDriver();
 //        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
